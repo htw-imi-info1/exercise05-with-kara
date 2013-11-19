@@ -41,17 +41,11 @@ public class KaraWorld extends World
     {
 
 
-        MasterKara masterkara = new MasterKara();
-        addObject(masterkara, 10, 19);
+        CopyKara kara = new CopyKara();
+        addObject(kara, 10, 19);
+        kara.turnLeft();
         
-        SlaveKara slavekara = new SlaveKara();
-        addObject(slavekara, 11, 19);
-        
-        masterkara.setSlaveKara(slavekara);
-        
-        slavekara.turnLeft();
-        masterkara.turnLeft();
-        
+       
         Leaf leaf = new Leaf();
         addObject(leaf, 9, 18);
         Leaf leaf2 = new Leaf();
