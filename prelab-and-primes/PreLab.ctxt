@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ printMultiplesOf5()
+comment1.params=a\ b
+comment1.target=int\ sumBetween(int,\ int)
+comment2.params=imi1
+comment2.target=void\ printStudentList(java.util.Collection)
+comment3.params=n
+comment3.target=boolean\ isPrime(int)
+comment4.params=
+comment4.target=int\ countPrimesSmallerThan1000()
+numComments=5
