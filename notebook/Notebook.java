@@ -39,21 +39,12 @@ public class Notebook
         return notes.size();
     }
 
-    /**
-     * Show a note.
-     * @param noteNumber The number of the note to be shown.
-     */
-    public void showNote(int noteNumber)
-    {
-        if(noteNumber < 0) {
-            // This is not a valid note number, so do nothing.
-        }
-        else if(noteNumber < numberOfNotes()) {
-            // This is a valid note number, so we can print it.
-            System.out.println(notes.get(noteNumber));
-        }
-        else {
-            // This is not a valid note number, so do nothing.
-        }
+    public String getNote(int i){
+        return notes.get(i);
+    }
+
+    public boolean remove(String searchString){
+        return false;
+
     }
 }
